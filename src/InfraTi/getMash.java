@@ -1,5 +1,5 @@
 
-package infra.ti;
+package InfraTi;
 
 import java.io.File;
 import java.io.FileOutputStream;

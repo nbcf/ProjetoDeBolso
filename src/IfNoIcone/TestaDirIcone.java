@@ -1,4 +1,4 @@
-package projetodebolso;
+package IfNoIcone;
 
 public class TestaDirIcone {
 

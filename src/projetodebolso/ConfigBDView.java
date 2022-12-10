@@ -6,14 +6,14 @@
 package projetodebolso;
 
 
-import infra.ti.lerDadosDDL;
-import infra.ti.lerDadosSystem;
-import infra.ti.lerDadosDebug;
-import infra.ti.WrConfs;
-import infra.ti.lerDadosTi;
-import infra.ti.escritaDadosDebug;
-import infra.ti.escritaDadosC3pO;
-import infra.ti.escritaDadosDDL;
+import InfraTi.lerDadosDDL;
+import InfraTi.lerDadosSystem;
+import InfraTi.lerDadosDebug;
+import InfraTi.WrConfs;
+import InfraTi.lerDadosTi;
+import InfraTi.escritaDadosDebug;
+import InfraTi.escritaDadosC3pO;
+import InfraTi.escritaDadosDDL;
 import java.awt.EventQueue;
 import java.util.HashMap;
 import java.util.Map;
