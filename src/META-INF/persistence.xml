@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="vendasPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+  <!--   <class>io.github.nbcf.se.model.Categoria</class>
+    <class>io.github.nbcf.se.model.Loja</class>
+    <class>io.github.nbcf.se.model.Tipoquantidade</class>
+    <class>io.github.nbcf.se.model.Tipounidade</class>
+    <class>io.github.nbcf.se.model.Produto</class>
+    <class>io.github.nbcf.se.model.AberturaCaixa</class>
+    <class>io.github.nbcf.se.model.Estoque</class>
+    <class>io.github.nbcf.se.model.Acl</class>
+    <class>io.github.nbcf.se.model.Apagarereceber</class>
+    <class>io.github.nbcf.se.model.Usuario</class>
+    <class>io.github.nbcf.se.model.Pessoa</class> -->
+    <properties>
+      <property name="hibernate.default_schema" value="public1"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vendas"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+    </properties>
+  </persistence-unit>
+  
+  
+  
+  
+    <persistence-unit name="vendas2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+   <!-- <class>io.github.nbcf.se.model.Categoria</class> -->
+    <properties>
+      <property name="hibernate.default_schema" value="public155554"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vendas2"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin22552225"/>
+    </properties>
+  </persistence-unit>
+
+
+<persistence-unit name="vendas3PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+   <!-- <class>io.github.nbcf.se.model.Categoria</class> -->
+    <properties>
+      <property name="hibernate.default_schema" value="public155554"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vendas3"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin22552225"/>
+    </properties>
+  </persistence-unit>
+  
+  
+  <persistence-unit name="vendas4PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+   <!-- <class>io.github.nbcf.se.model.Categoria</class> -->
+    <properties>
+      <property name="hibernate.default_schema" value="public155554"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vendas3"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin22552225"/>
+    </properties>
+  </persistence-unit>
