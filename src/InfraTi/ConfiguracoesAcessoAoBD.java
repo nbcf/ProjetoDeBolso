@@ -8,7 +8,6 @@ package InfraTi;
 
 import InfraTi.WrConfs;
 import javax.swing.JFrame;
-import projetodebolso.LerMapPersistenceXml;
 
 /**
  *

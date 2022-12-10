@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import javax.swing.JOptionPane;
 import ETLData.ETLEntradaDados;
-import projetodebolso.LerMapPersistenceXml;
+import InfraTi.LerMapPersistenceXml;
 
 
  /**
