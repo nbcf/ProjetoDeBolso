@@ -1,4 +1,4 @@
-package projetodebolso;
+package BehaviorUI;
 
 import java.beans.PropertyVetoException;
 import javax.swing.JDesktopPane;

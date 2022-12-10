@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetodebolso;
+package InfraTi;
 
 
 import InfraTi.WrConfs;
 import javax.swing.JFrame;
+import projetodebolso.LerMapPersistenceXml;
 
 /**
  *

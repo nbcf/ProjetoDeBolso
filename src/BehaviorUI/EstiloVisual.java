@@ -1,5 +1,5 @@
 
-package projetodebolso;
+package BehaviorUI;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;

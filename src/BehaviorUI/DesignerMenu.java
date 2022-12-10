@@ -1,4 +1,4 @@
-package projetodebolso;
+package BehaviorUI;
 
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
