@@ -3,10 +3,15 @@ package View;
 
 import GregorianCalendarCalc.CalendarCalc;
 
-
-/**
- *
- * @author nil_b
+ /**
+* @author NILDO BUENO CORREIA FILHO 
+ * CPF: 10333054725
+ * EMAIL: nil_bueno@hotmail.com    
+ * JAVA VERSION - 14
+ * NETBEANS     - 12
+ * Github: https://github.com/nbcf
+ * Linkedin : https://www.linkedin.com/in/nildo-bueno-271464167/
+ * Created on 10/12/2022 17:35 by Nildo Bueno
  */
 public class CalculoComDatasJIView extends javax.swing.JInternalFrame {
 

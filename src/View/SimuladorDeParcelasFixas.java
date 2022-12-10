@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import javax.swing.table.DefaultTableModel;
 
-public class SimuladorVendaContratosView1 extends javax.swing.JFrame {
+public class SimuladorDeParcelasFixas extends javax.swing.JFrame {
      private static DefaultTableModel modelo;
      private static BigDecimal p1a6_1;
      private static BigDecimal p1a6_2;
@@ -58,7 +58,7 @@ public class SimuladorVendaContratosView1 extends javax.swing.JFrame {
     private static Date  Bol10DateVencimento ;
     private static Date  Bol11DateVencimento ;
 
-    public SimuladorVendaContratosView1() {
+    public SimuladorDeParcelasFixas() {
         initComponents();
         setSize(635, 447);//[][]
         setResizable(true);
@@ -255,7 +255,7 @@ Jtable();
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new SimuladorVendaContratosView1().setVisible(true);
+                new SimuladorDeParcelasFixas().setVisible(true);
             }
         });
     }

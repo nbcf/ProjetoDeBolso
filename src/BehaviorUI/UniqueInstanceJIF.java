@@ -11,8 +11,10 @@ import javax.swing.JOptionPane;
  * EMAIL: nil_bueno@hotmail.com    
  * JAVA VERSION - 14
  * NETBEANS     - 12
- * 
+ * Github: https://github.com/nbcf
+ * Linkedin : https://www.linkedin.com/in/nildo-bueno-271464167/
  * Created on 25/12/2021, 03:20:27
+ * Implementatios in 10/12/2022 17:35 by Nildo Bueno
  */
 public class UniqueInstanceJIF{
     
@@ -24,12 +26,17 @@ public class UniqueInstanceJIF{
     }
 
     public void callJInternalFrame(JInternalFrame jInternalFrame, Boolean maximizado, String titulo){
-    if(jInternalFrame.isVisible()){
-    jInternalFrame.toFront();
-    jInternalFrame.requestFocus();
-     JOptionPane.showMessageDialog(jInternalFrame,"Janela "+jInternalFrame.getTitle().toString()+" já se encotra aberta","Aviso do Sistema",JOptionPane.OK_OPTION);
-    }else{
-    jdesktopPane.add(jInternalFrame);
+        if(jInternalFrame.isVisible()){
+        jInternalFrame.toFront();
+        jInternalFrame.requestFocus();
+        JOptionPane.showMessageDialog(
+                jInternalFrame,
+                "Janela "+jInternalFrame.getTitle().toString()+" já se encotra aberta",
+                "Aviso do Sistema",
+                JOptionPane.OK_OPTION);
+        }else{
+    
+        jdesktopPane.add(jInternalFrame);
     
            int distanciamento = 25;
         int jdi =  jdesktopPane.getAllFrames().length;
