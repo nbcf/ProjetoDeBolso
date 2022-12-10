@@ -6,9 +6,18 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
-/**
- *
- * @author Nildo  
+ /**
+* @author NILDO BUENO CORREIA FILHO 
+ * CPF: 10333054725
+ * EMAIL: nil_bueno@hotmail.com    
+ * JAVA VERSION - 8;14;17
+ * NETBEANS     - 8;12;16  >> 
+ * 
+ * não tenho celular, 
+ * por gentileza entrem 
+ * em contato pelo email acima. 
+ * ;)
+ * Created on 10/12/2022, 14:35
  */
 public class lerDadosDebug {
  
