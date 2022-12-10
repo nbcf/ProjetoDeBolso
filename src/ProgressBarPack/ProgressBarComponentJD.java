@@ -32,28 +32,17 @@ private String objeto="";
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jProgressBar1 = new javax.swing.JProgressBar();
-        jLabel2 = new javax.swing.JLabel();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("....");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jProgressBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 629, Short.MAX_VALUE)
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGap(0, 629, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jProgressBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 37, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2))
+            .addGap(0, 60, Short.MAX_VALUE)
         );
 
         pack();
@@ -110,8 +99,8 @@ private String objeto="";
                       int k = arreioDeLinhaSelecionadas[t];
 //                      Object objetoResgatado     = jTableDadosModel.getValueAt(k, jColunnTable);
 //                      Object objetoResgatadoNome = jTableDadosModel.getValueAt(k, jColunnTableNome);
-                      int codigo = Integer.parseInt(objetoResgatado.toString());
-                pbg.RunProgress(0, arreioDeLinhaSelecionadas.length, t, objetoResgatadoNome.toString());
+          //            int codigo = Integer.parseInt(objetoResgatado.toString());
+           //     pbg.RunProgress(0, arreioDeLinhaSelecionadas.length, t, objetoResgatadoNome.toString());
                    //   controllerDao.ExcluirLote(Categoria.class, codigo);
              }
        //  jTableDadosModel.clearSelection();
@@ -119,12 +108,9 @@ private String objeto="";
       //  ComportamentoAtualizar();
         // jDialogBarraDeProgresso2.getOwner().dispose();
         this.stop();
-       
+        }}}
         }
-    }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JProgressBar jProgressBar1;
     // End of variables declaration//GEN-END:variables
-}
+
