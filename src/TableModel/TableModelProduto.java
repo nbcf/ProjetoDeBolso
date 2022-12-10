@@ -1,3 +1,5 @@
+package TableModel;
+
 //package projetodebolso;
 //
 //import io.github.nbcf.se.model.Produto;
