@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import javax.swing.JOptionPane;
-import projetodebolso.ETLEntradaDados;
+import ETLData.ETLEntradaDados;
 import projetodebolso.LerMapPersistenceXml;
 
 

@@ -6,6 +6,7 @@
 package projetodebolso;
 
 
+import infra.ti.WrConfs;
 import javax.swing.JFrame;
 
 /**

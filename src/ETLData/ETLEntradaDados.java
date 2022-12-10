@@ -1,12 +1,21 @@
 
-package projetodebolso;
+package ETLData;
 
-
-
-/**
- *
- * @author nil_b
+ /**
+* @author NILDO BUENO CORREIA FILHO 
+ * CPF: 10333054725
+ * EMAIL: nil_bueno@hotmail.com    
+ * JAVA VERSION - 8;14;17
+ * NETBEANS     - 8;12;16  >> ...Muitos anos fazendo isso
+ * 
+ * não tenho celular, 
+ * por gentileza entrem 
+ * em contato pelo email acima. 
+ * ;)
+ * Created on 30/12/2021, 17:09:27
+ * 
  */
+
 public class ETLEntradaDados {
     
  
