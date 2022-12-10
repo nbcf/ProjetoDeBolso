@@ -2,7 +2,7 @@
 package View;
 
 import BehaviorUI.DesignerMenu;
-import BehaviorUI.EstanciaUnicaJIF;
+import BehaviorUI.UniqueInstanceJIF;
 import BehaviorUI.EstiloVisual;
 
 
@@ -17,11 +17,11 @@ public class MenuView extends javax.swing.JFrame {
      * Creates new form MenuView
      */
         DesignerMenu comportamentoMenu  = new DesignerMenu();
-    EstanciaUnicaJIF unicaEstancia;
+    UniqueInstanceJIF unicaEstancia;
     EstiloVisual look = new EstiloVisual();
     public MenuView() {
         initComponents();
-        this.unicaEstancia = new EstanciaUnicaJIF(jDesktopPane1);
+        this.unicaEstancia = new UniqueInstanceJIF(jDesktopPane1);
         look.EstiloLookandfeel(this);
         comportamentoMenu.iniciarJFrameMaximizada(this);
     }
@@ -44,9 +44,11 @@ public class MenuView extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(800, 600));
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
         jLabel1.setText("jLabel1");
@@ -64,11 +66,11 @@ public class MenuView extends javax.swing.JFrame {
         jDesktopPane1.setLayout(jDesktopPane1Layout);
         jDesktopPane1Layout.setHorizontalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 634, Short.MAX_VALUE)
         );
         jDesktopPane1Layout.setVerticalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 579, Short.MAX_VALUE)
         );
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -101,6 +103,14 @@ public class MenuView extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
+        jMenuItem2.setText("jMenuItem2");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem2);
+
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Edit");
@@ -116,6 +126,11 @@ public class MenuView extends javax.swing.JFrame {
              args[0] = "Simulador de Parcelas Fixas";
              SimuladorVendaContratosView1.main(args);        // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+ unicaEstancia.callJInternalFrame(CalculoComDatasJIView.getUECalculoComDatasJIView(), false,"Teste"); 
+
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -160,6 +175,7 @@ public class MenuView extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
