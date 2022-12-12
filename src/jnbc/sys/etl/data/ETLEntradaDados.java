@@ -1,5 +1,5 @@
 
-package jnbc.sys.etl.os;
+package jnbc.sys.etl.data;
 
  /**
 * @author NILDO BUENO CORREIA FILHO 

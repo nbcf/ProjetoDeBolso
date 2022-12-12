@@ -6,7 +6,7 @@
 package jnbc.sys.etl.excelread;
 
 
-import jnbc.sys.etl.os.ETLEntradaDados;
+import jnbc.sys.etl.data.ETLEntradaDados;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
