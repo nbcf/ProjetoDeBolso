@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jnbcf.sys.control.fontsize;
+package jnbc.sys.control.fontsize;
 
 import javax.swing.JTable;
 
