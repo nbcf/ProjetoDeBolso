@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.1" 
+    xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+      
+    
+    <persistence-unit name="teste_tabela_png?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>nildo.infraA1.View.Crud</class>
+        
+      <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/teste_tabela_png?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>   
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="true"/>   
+      </properties>
+    </persistence-unit>
+    
+</persistence>
+
+
+
+java.beans.Beans.isDesignTime() ? null : javax.persistence.Persistence.createEntityManagerFactory("teste_tabela_png?zeroDateTimeBehavior=convertToNullPU", map).createEntityManager()
+
+
+
+
+map.put("javax.persistence.jdbc.url", "uma URL informado pelo usuário"); //Essa propriedade vai substituir aquela que está no arquivo.
+map.put("javax.persistence.jdbc.url", "jdbc:mysql://localhost:3306/teste_tabela_png?zeroDateTimeBehavior=convertToNull");
+map.put("javax.persistence.jdbc.user.value", "xcvzx");
+map.put("javax.persistence.jdbc.driver.value", "com.mysql.jdbc.Driver");
+map.put("javax.persistence.jdbc.password.value", "admin" );
+map.put("hibernate.dialect.value", "org.hibernate.dialect.MySQL57Dialect");
+map.put("hibernate.show_sql.value", "true");
+map.put("hibernate.format_sql.value", "true");
